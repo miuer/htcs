@@ -1,0 +1,18 @@
+.img-list{
+    list-style-type: none;
+    background-color: antiquewhite;
+    width: 200px;
+}
+
+
+.img-list li {
+    margin-bottom: 10px;
+    width: 100%;
+
+}
+
+
+.img-list img{
+    height: 190px;
+    width: 150px;
+}
