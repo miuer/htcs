@@ -1,0 +1,32 @@
+.left-nav{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 160px;
+    background-color: azure;
+
+    margin: 50px  auto;
+}
+
+.left-nav div{
+    padding-left: 10px;
+    font-size: 14px;
+
+    line-height: 2em;
+}
+
+.left-nav div:hover{
+    background-color: darkgray;
+}
+
+.left-nav a{
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover{
+    color:red;
+}
+
+.left-nav span {
+    font-size: 14px;
+    margin-left: 2px;
+}

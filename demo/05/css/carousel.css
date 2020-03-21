@@ -1,0 +1,40 @@
+.img-list{
+    margin: 50px auto;
+    width: 590px;
+    height: 470px;
+    list-style: none;
+
+    position: relative;
+}
+
+.img-list li {
+    position: absolute;
+}
+
+
+.pointer {
+    z-index: 9999;
+    position: absolute;
+    bottom: 20px;
+}
+
+.pointer a {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+
+    border: 5px;
+
+    float: left;
+
+    margin-left: 20px;
+
+    background-color: rgb(223, 219, 219);
+    border: 2px solid tra;
+
+}
+
+.pointer a.active {
+    background-color: #fff;
+    border: 2px solid rgb(223, 219, 219);
+}

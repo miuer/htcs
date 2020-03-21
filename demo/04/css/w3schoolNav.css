@@ -1,0 +1,25 @@
+.nav {
+    height: 48px;
+    margin: 50px auto;
+
+    background-color: rgb(231, 225, 225);
+}
+
+.nav li {
+    float: left;
+    list-style: none;
+    padding-left: 38px;
+    line-height: 48px;
+}
+
+.nav li :hover {
+    background-color: rgb(155, 150, 150);
+    color: red;
+}
+
+.nav li a {
+    display: block;
+    text-decoration: none;
+    color: #777;
+    
+}
