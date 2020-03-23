@@ -1,0 +1,118 @@
+.clearfix::before, .clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+    *zoom: 1;
+}
+
+.top-bar-wrapper {
+    line-height: 30px;
+    background-color: #e3e4e5;
+    border-bottom: 1px solid #dddddd;
+    font-family: "Microsoft YaHei", "Heiti SC", tahoma, arial, "Hiragino Sans GB", 宋体, sans-serif;
+    font-size: 12px;
+}
+
+.top-bar {
+    width: 1190px;
+    margin: 0px auto;
+    position: relative;
+}
+
+.top-bar a, .top-bar span {
+    color: #999999;
+}
+
+.top-bar a:hover, .top-bar a.heightlight {
+    color: #ff0000;
+}
+
+.location {
+    float: left;
+}
+
+.current-city {
+    position: relative;
+    border: 1px solid transparent;
+    border-bottom: none;
+    z-index: 9999;
+}
+
+.location:hover .current-city {
+    background-color: #fff;
+    border: 1px solid #999999;
+    border-bottom: none;
+}
+
+.location:hover .city-list {
+    display: block;
+}
+
+.location .city-list {
+    width: 320px;
+    height: 480px;
+    display: none;
+    border: 1px solid #333333;
+    background-color: #ffffff;
+    position: absolute;
+    top: 30px;
+    z-index: 999;
+}
+
+.shortcut {
+    float: right;
+}
+
+.shortcut li {
+    float: left;
+    margin: 0px, ;
+}
+
+.shortcut .line {
+    width: 1px;
+    height: 10px;
+    background-color: #999999;
+    margin: 10px 12px;
+}
+
+.wdjd .my-jd {
+    position: relative;
+    border: 1px solid transparent;
+    border-bottom: none;
+    z-index: 9999;
+}
+
+.wdjd:hover .my-jd {
+    background-color: #ffffff;
+    border: 1px solid #999999;
+    border-bottom: none;
+}
+
+.wdjd:hover .about-me {
+    display: block;
+}
+
+.wdjd .about-me {
+    width: 200px;
+    display: none;
+    border: 1px solid #333333;
+    background-color: #ffffff;
+    position: absolute;
+    top: 30px;
+    z-index: 999;
+}
+
+.wdjd .about-me a {
+    display: inline-block;
+    width: 70px;
+    margin-left: 20px;
+
+}
+
+.dividing-line {
+    border-top: 1px solid #333333;
+    position: relative;
+    top: 90px;
+   
+    margin-bottom: 20;
+}
